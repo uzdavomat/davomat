@@ -7,7 +7,7 @@ load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # ADMIN SOZLAMALARI
-SUPER_ADMIN_ID = 1109235227
+SUPER_ADMIN_ID = 724199079
 
 # NOTIFICATION ADMIN ID'larini yuklash va ro'yxatga aylantirish
 notification_ids_str = "8329974466"
