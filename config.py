@@ -1,10 +1,10 @@
-# import os
-# from dotenv import load_dotenv
+import os
+from dotenv import load_dotenv
 
-# load_dotenv()
+load_dotenv()
 # sdfg
 
-BOT_TOKEN = "8277394474:AAG-p0vu9R3s4wDzEy9BJDqFwOghGXE3S1E"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # ADMIN SOZLAMALARI
 SUPER_ADMIN_ID = 1109235227
